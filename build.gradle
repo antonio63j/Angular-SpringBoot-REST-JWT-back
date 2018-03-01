@@ -10,6 +10,7 @@ buildscript {
 /**
  * Include the gradle-download-task plugin
  */
+ 
 plugins {
     id 'de.undercouch.download' version '3.2.0'
 }
@@ -57,7 +58,7 @@ dependencies {
 }
 
 
-
+/**
 task removeWebui(type: Delete) {
     delete "${sourceSets.main.resources.srcDirs[0]}/webui"
 }
@@ -68,6 +69,7 @@ task copyWebui(type: Copy) {
     exclude "*.gz"
     //eachFile { println it.name }
 }
+*/
 
 task downloadRedoc(type: Download) {
     src  "https://rebilly.github.io/ReDoc/releases/latest/redoc.min.js"
@@ -92,6 +94,6 @@ task listaVar (){
 
 
 compileJava.dependsOn downloadRedoc
-copyWebui.dependsOn removeWebui
-compileJava.dependsOn copyWebui
+//copyWebui.dependsOn removeWebui
+//compileJava.dependsOn copyWebui
 

@@ -189,31 +189,31 @@ curl -X GET --header 'Accept: application/json' --header 'Authorization: [replac
 
 ### Screenshots
 #### Login
-![Dashboard](/screenshots/login.png?raw=true)
+![Dashboard](./screenshots/login.png?raw=true)
 ---
 #### Dashboard - Order Stats
-![Dashboard](/screenshots/order_stats.png?raw=true)
+![Dashboard](./creenshots/order_stats.png?raw=true)
 ---
 #### Dashboard - Product Stats
-![Dashboard](/screenshots/product_stats.png?raw=true)
+![Dashboard](./screenshots/product_stats.png?raw=true)
 ---
 #### Orders
-![Dashboard](/screenshots/orders.png?raw=true)
+![Dashboard](./screenshots/orders.png?raw=true)
 ---
 #### Orders Details
-![Dashboard](/screenshots/order_details.png?raw=true)
+![Dashboard](./screenshots/order_details.png?raw=true)
 ---
 #### Customers
-![Dashboard](/screenshots/customers.png?raw=true)
+![Dashboard](./screenshots/customers.png?raw=true)
 ---
 #### API Docs - With Live Tryout
-![Dashboard](/screenshots/api_doc.png?raw=true)
+![Dashboard](./screenshots/api_doc.png?raw=true)
 ---
 #### API Docs - For redability
-![Dashboard](/screenshots/api_doc2.png?raw=true)
+![Dashboard](./screenshots/api_doc2.png?raw=true)
 ---
 #### Database Schema
-![ER Diagram](/screenshots/db_schema.png?raw=true)
+![ER Diagram](./screenshots/db_schema.png?raw=true)
 
 ## Contributors
 
